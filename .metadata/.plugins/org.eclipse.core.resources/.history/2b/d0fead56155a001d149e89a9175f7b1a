@@ -1,0 +1,18 @@
+package mylovelypgm;
+import java.util.Scanner;
+public class Mylovelypgm {
+
+	public static void main(String[] args) {
+		System.out.println("hello vishal ");
+		
+		//Scanner in= new Scanner(System.in);
+		//String s = in.nextLine();
+		
+		//int x = 6; 
+		int x;
+		x=6;
+		System.out.println(x);
+		
+	}
+
+}

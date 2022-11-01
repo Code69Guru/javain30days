@@ -1,0 +1,22 @@
+package mylovelypgm;
+import java.util.Scanner;
+public class Mylovelypgm {
+
+	public static void main(String[] args) {
+		System.out.println("enter your name ");
+		
+		Scanner in= new Scanner(System.in);
+		String s = in.nextLine();
+		
+		if(s.equals("vishal")) {
+			System.out.println("hello vishal");
+		}else if(s.equals("monkey")) {
+			System.out.println("monkey is here");
+		}else {
+			System.out.println("no one are here");
+		}
+		
+		in.close();
+	}
+
+}

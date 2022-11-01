@@ -1,0 +1,15 @@
+package mylovelypgm;
+import java.util.Scanner;
+public class Mylovelypgm {
+
+	public static void main(String[] args) {
+		System.out.println("hello vishal ");
+		
+		Scanner in= new Scanner(System.in);
+		String s = in.nextLine();
+		String m = "meow";
+		System.out.println(s);
+		System.out.println(m);
+	}
+
+}
